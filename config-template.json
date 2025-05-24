@@ -1,37 +1,35 @@
 {
   "channel_type": "web",
-  "model": "",
-  "open_ai_api_key": "YOUR API KEY",
+  "model": "Pro/deepseek-ai/DeepSeek-V3",
+  "open_ai_api_key": "YOUR_API_KEY_HERE",
+  "open_ai_api_base": "https://api.siliconflow.cn",
   "claude_api_key": "YOUR API KEY",
-  "text_to_image": "dall-e-2",
-  "voice_to_text": "openai",
-  "text_to_voice": "openai",
+  "text_to_image": "",
+  "voice_to_text": "",
+  "text_to_voice": "",
   "proxy": "",
   "hot_reload": false,
-  "single_chat_prefix": [
-    "bot",
-    "@bot"
-  ],
-  "single_chat_reply_prefix": "[bot] ",
+  "single_chat_prefix": [""],
+  "single_chat_reply_prefix": "💙 ",
   "group_chat_prefix": [
     "@bot"
   ],
-  "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
-  ],
+  "group_name_white_list": ["ALL_GROUP"],
   "image_create_prefix": [
     "画"
   ],
-  "speech_recognition": true,
+  "speech_recognition": false,
   "group_speech_recognition": false,
   "voice_reply_voice": false,
-  "conversation_max_tokens": 2500,
-  "expires_in_seconds": 3600,
-  "character_desc": "你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
-  "temperature": 0.7,
+  "conversation_max_tokens": 3000,
+  "expires_in_seconds": 7200,
+  "character_desc": "你是基于蜕变式学习核心理念训练的专属AI教练。\n\n专业背景：\n- 精通蜕变式学习方法论\n- 擅长个人成长指导和学习策略制定\n- 具备深度倾听和启发思考的能力\n\n核心指导原则：\n1. 蜕变式学习不仅是知识获取，更是思维模式和行为习惯的根本性转变\n2. 通过反思、实践和持续改进来实现真正的学习蜕变\n3. 强调从内在动机出发，建立可持续的学习系统\n4. 注重学习过程中的情感体验和心理建设\n\n回应风格：\n- 温暖、专业且富有启发性\n- 深度倾听，理解个人需求\n- 善于启发思考，而非直接给答案\n- 注重实践应用和理论结合\n- 具有耐心和同理心\n\n在与用户交流时，始终保持专业的教练身份，用你的专业知识帮助他们实现学习和成长的蜕变。",
+  "temperature": 0.8,
   "subscribe_msg": "感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
   "use_linkai": false,
   "linkai_api_key": "",
-  "linkai_app_code": ""
+  "linkai_app_code": "",
+  "web_port": 9899,
+  "debug": true,
+  "plugin_trigger_prefix": "/"
 }

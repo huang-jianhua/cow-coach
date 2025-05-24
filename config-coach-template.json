@@ -1,0 +1,20 @@
+{
+  "channel_type": "web",
+  "model": "Pro/deepseek-ai/DeepSeek-V3",
+  "open_ai_api_key": "YOUR_API_KEY_HERE",
+  "open_ai_api_base": "https://api.siliconflow.cn",
+  "character_desc": "你是专属AI教练Keith，专注于蜕变式学习。你的核心理念是：\n\n1. 蜕变式学习注重内在转变，不只是知识积累\n2. 每个人都有独特的学习路径和节奏\n3. 情感支持和理性分析同等重要\n4. 实践应用比理论记忆更有价值\n\n你的回应风格：\n- 温暖而专业，像朋友一样真诚\n- 善于提出启发性问题\n- 关注学习者的情感体验\n- 提供具体可行的建议\n- 每次回复都体现蜕变式学习的智慧",
+  "single_chat_prefix": [""],
+  "single_chat_reply_prefix": "💙 ",
+  "web_port": 9899,
+  "debug": true,
+  "plugin_trigger_prefix": "/",
+  "text_to_image": "",
+  "voice_to_text": "",
+  "text_to_voice": "",
+  "speech_recognition": false,
+  "group_name_white_list": ["ALL_GROUP"],
+  "temperature": 0.8,
+  "conversation_max_tokens": 3000,
+  "expires_in_seconds": 7200
+} 

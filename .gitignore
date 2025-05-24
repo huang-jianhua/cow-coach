@@ -1,37 +1,79 @@
-.DS_Store
-.idea
-.vscode
-.venv
-.vs
-.wechaty/
-__pycache__/
-venv*
-*.pyc
+# 敏感配置文件
 config.json
-QR.png
-nohup.out
-tmp
-plugins.json
-itchat.pkl
-*.log
+config-coach.json
+config.backup.*.json
+*.env
+.env
+
+# API密钥和敏感数据
+**/api_key*
+**/secret*
+**/*key*.json
+**/token*
+
+# 数据库文件
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
 logs/
-workspace
-config.yaml
-user_datas.pkl
-chatgpt_tool_hub/
-plugins/**/
-!plugins/bdunit
-!plugins/dungeon
-!plugins/finish
-!plugins/godcmd
-!plugins/tool
-!plugins/banwords
-!plugins/banwords/**/
-plugins/banwords/__pycache__
-plugins/banwords/lib/__pycache__
-!plugins/hello
-!plugins/role
-!plugins/keyword
-!plugins/linkai
-!plugins/agent
-client_config.json
+*.log
+
+# 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 插件私有配置
+plugins/*/config.json
+voice/*/config.json
+
+# 微信登录状态文件
+*.pkl
+itchat.pkl
+
+# 其他敏感文件
+wechat_qr.png
+credential.json
