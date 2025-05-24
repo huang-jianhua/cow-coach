@@ -279,11 +279,12 @@ cow-coach/
 - 📝 文档改进
 - 🎨 界面优化
 
-## 📞 支持联系
+## 📞 获取帮助
 
-- 📧 Email: support@keithmak-coach.com
-- 💬 微信群: 扫码加入学习社群
-- 📱 官网: https://coach.keithmak.com
+- 🐛 **报告问题**: 在GitHub仓库创建Issue
+- 💡 **功能建议**: 提交Feature Request  
+- 📖 **查看文档**: 阅读项目Wiki和README
+- 💬 **社区讨论**: 参与GitHub Discussions
 
 ---
 
@@ -291,7 +292,7 @@ cow-coach/
 > 
 > —— Keith AI Coach
 
-## �� 开始你的蜕变之旅
+## 🎓 开始你的蜕变之旅
 
 ```bash
 git clone https://github.com/yourusername/cow-coach.git
